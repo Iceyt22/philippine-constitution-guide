@@ -1,6 +1,6 @@
 # Philippine Constitution Civic Guide
 
-A responsive, one-page educational portfolio project about the **1987 Constitution of the Philippines**. It uses plain HTML, CSS, and JavaScript—no framework, build system, or backend is required.
+A responsive, one-page educational portfolio project about the **1987 Constitution of the Philippines**.
 
 ## Open locally
 
@@ -40,4 +40,4 @@ This is an introductory civic-learning project. It is **not legal advice** and d
 
 ## Deployment
 
-Because this is a static site, it can be hosted on GitHub Pages, Netlify, Vercel, Cloudflare Pages, or any web server that serves HTML files.
+Because this is a static site, it can be hosted on GitHub Pages
