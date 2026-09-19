@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A concise, interactive guide to the 1987 Constitution of the Philippines.">
+  <title>Philippine Constitution | Civic Guide</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Philippine Constitution guide home">
+        <span class="brand-mark" aria-hidden="true">1987</span>
+        <span>Constitution<br><small>Philippines</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span aria-hidden="true">☰</span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a href="#overview">Overview</a>
+        <a href="#articles">Articles</a>
+        <a href="#rights">Rights</a>
+        <a href="#government">Government</a>
+        <a href="#quiz">Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">A CIVIC LEARNING PROJECT</p>
+          <h1>The 1987 Constitution of the Philippines</h1>
+          <p class="hero-copy">A clear, visual introduction to the nation’s fundamental law—its principles, rights, institutions, and 18 articles.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#articles">Explore the articles</a>
+            <a class="button button-secondary" href="#quiz">Take the quick quiz</a>
+          </div>
+          <p class="disclaimer">Educational guide only. This site summarizes constitutional topics and is not legal advice or a substitute for the official text.</p>
+        </div>
+        <aside class="hero-card" aria-label="Constitution key fact">
+          <p class="card-label">Fundamental law</p>
+          <blockquote>“Sovereignty resides in the people and all government authority emanates from them.”</blockquote>
+          <p class="citation">Article II, Section 1</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="overview" class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">START HERE</p>
+          <h2>What the Constitution does</h2>
+          <p>It establishes the structure of government, protects individual rights, and expresses the country’s core principles and public commitments.</p>
+        </div>
+        <div class="facts-grid">
+          <article class="fact-card"><span>01</span><h3>Ratified</h3><p>February 2, 1987</p></article>
+          <article class="fact-card"><span>02</span><h3>Proclaimed</h3><p>February 11, 1987</p></article>
+          <article class="fact-card"><span>03</span><h3>Articles</h3><p>18 constitutional articles</p></article>
+          <article class="fact-card"><span>04</span><h3>Purpose</h3><p>Government framework and citizens’ rights</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section timeline-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">CONTEXT</p>
+          <h2>A constitution shaped by democratic transition</h2>
+        </div>
+        <ol class="timeline">
+          <li><strong>1986</strong><span>The People Power Revolution leads to a transition from authoritarian rule.</span></li>
+          <li><strong>1986–87</strong><span>A Constitutional Commission drafts a new charter.</span></li>
+          <li><strong>Feb. 2, 1987</strong><span>Citizens ratify the Constitution through a national plebiscite.</span></li>
+          <li><strong>Feb. 11, 1987</strong><span>The Constitution is proclaimed and takes effect.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FOUNDATIONS</p>
+          <h2>Core constitutional principles</h2>
+        </div>
+        <div class="principles-grid">
+          <details open><summary>Popular sovereignty</summary><p>Government authority comes from the people, who exercise sovereignty through democratic institutions and participation.</p></details>
+          <details><summary>Democratic and republican state</summary><p>The Philippines is organized as a democracy with representatives and institutions accountable to the public.</p></details>
+          <details><summary>Civilian authority</summary><p>Civilian authority is supreme over the military, reinforcing democratic control of public power.</p></details>
+          <details><summary>Checks and balances</summary><p>Legislative, executive, and judicial powers are distributed to help prevent the concentration of authority.</p></details>
+          <details><summary>Human dignity and social justice</summary><p>The Constitution commits the State to protect human dignity, promote social justice, and work for the common good.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="articles" class="section articles-section">
+      <div class="container">
+        <div class="section-heading article-heading">
+          <div>
+            <p class="eyebrow">ARTICLE EXPLORER</p>
+            <h2>A guide to all 18 articles</h2>
+            <p>Search by article title or topic. These are plain-language summaries, not the official constitutional text.</p>
+          </div>
+          <div class="search-box">
+            <label for="article-search">Search articles</label>
+            <input id="article-search" type="search" placeholder="Try “rights”, “government”, or “suffrage”">
+            <p id="search-status" role="status" aria-live="polite">Showing all 18 articles.</p>
+          </div>
+        </div>
+        <div class="articles-grid" id="articles-grid">
+          <article class="article-card" data-search="national territory land waters air territory"><span>Article I</span><h3>National Territory</h3><p>Defines the territory over which the Philippines exercises sovereignty.</p></article>
+          <article class="article-card" data-search="principles policies sovereignty democratic republican state"><span>Article II</span><h3>Declaration of Principles and State Policies</h3><p>States the nation’s foundational principles, including popular sovereignty and civilian supremacy.</p></article>
+          <article class="article-card" data-search="bill rights liberty due process equal protection speech privacy"><span>Article III</span><h3>Bill of Rights</h3><p>Protects civil liberties and sets limits on government power over individuals.</p></article>
+          <article class="article-card" data-search="citizenship filipino citizen nationality"><span>Article IV</span><h3>Citizenship</h3><p>Explains who is considered a Filipino citizen and how citizenship may be retained or reacquired.</p></article>
+          <article class="article-card" data-search="suffrage vote election voter"><span>Article V</span><h3>Suffrage</h3><p>Establishes the right and basic qualifications of citizens to vote.</p></article>
+          <article class="article-card" data-search="legislative congress senate house representatives law"><span>Article VI</span><h3>Legislative Department</h3><p>Creates Congress and describes its lawmaking powers and processes.</p></article>
+          <article class="article-card" data-search="executive president vice president administration"><span>Article VII</span><h3>Executive Department</h3><p>Defines the office, powers, duties, and limits of the President and Vice President.</p></article>
+          <article class="article-card" data-search="judicial supreme court justice courts interpret law"><span>Article VIII</span><h3>Judicial Department</h3><p>Establishes the judiciary, headed by the Supreme Court, and judicial power.</p></article>
+          <article class="article-card" data-search="constitutional commissions civil service elections audit"><span>Article IX</span><h3>Constitutional Commissions</h3><p>Creates independent commissions for civil service, elections, and auditing.</p></article>
+          <article class="article-card" data-search="local government provinces cities municipalities barangays"><span>Article X</span><h3>Local Government</h3><p>Supports local autonomy and outlines the organization of local government units.</p></article>
+          <article class="article-card" data-search="accountability public officers impeachment ethics corruption"><span>Article XI</span><h3>Accountability of Public Officers</h3><p>Declares public office a public trust and provides mechanisms for accountability.</p></article>
+          <article class="article-card" data-search="national economy patrimony resources ownership"><span>Article XII</span><h3>National Economy and Patrimony</h3><p>Sets policies on national resources, economic development, and Filipino participation.</p></article>
+          <article class="article-card" data-search="social justice human rights labor agrarian reform"><span>Article XIII</span><h3>Social Justice and Human Rights</h3><p>Promotes social justice and recognizes rights involving labor, land, housing, health, and more.</p></article>
+          <article class="article-card" data-search="education science technology arts culture sports"><span>Article XIV</span><h3>Education, Science and Technology, Arts, Culture and Sports</h3><p>Sets State responsibilities for learning, research, culture, and national development.</p></article>
+          <article class="article-card" data-search="family marriage children home"><span>Article XV</span><h3>The Family</h3><p>Recognizes the family as the foundation of the nation and protects its role in society.</p></article>
+          <article class="article-card" data-search="general provisions flag language armed forces media"><span>Article XVI</span><h3>General Provisions</h3><p>Covers matters such as national symbols, language, armed forces, and communication.</p></article>
+          <article class="article-card" data-search="amendments revisions change constitution initiative referendum"><span>Article XVII</span><h3>Amendments or Revisions</h3><p>Provides procedures for changing the Constitution through Congress, convention, or initiative.</p></article>
+          <article class="article-card" data-search="transitory provisions transition implementation"><span>Article XVIII</span><h3>Transitory Provisions</h3><p>Contains rules that guided the shift to the institutions created by the 1987 Constitution.</p></article>
+        </div>
+        <p id="no-results" class="no-results" hidden>No articles match that search. Try another topic.</p>
+      </div>
+    </section>
+
+    <section id="rights" class="section section-light">
+      <div class="container split-layout">
+        <div>
+          <p class="eyebrow">ARTICLE III</p>
+          <h2>The Bill of Rights</h2>
+          <p class="lead">The Bill of Rights helps protect individual freedom and dignity by placing legal limits on government action.</p>
+          <a class="text-link" href="#articles">Find Article III in the article explorer →</a>
+        </div>
+        <ul class="rights-list">
+          <li><strong>Due process and equal protection</strong><span>Government must respect fair legal procedures and apply laws equally.</span></li>
+          <li><strong>Freedoms of expression and religion</strong><span>People have protected freedoms to speak, publish, assemble, and practice religion.</span></li>
+          <li><strong>Privacy and security</strong><span>People are protected against unreasonable searches and seizures.</span></li>
+          <li><strong>Rights of the accused</strong><span>Criminal justice protections include rights to counsel and a fair trial.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="government" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">CHECKS AND BALANCES</p>
+          <h2>How government is organized</h2>
+          <p>Separate branches have distinct responsibilities and powers, designed to hold one another accountable.</p>
+        </div>
+        <div class="branches-grid">
+          <article class="branch-card"><p>ARTICLE VI</p><h3>Legislative</h3><span>Congress</span><p>Makes laws, approves public spending, and exercises oversight.</p></article>
+          <article class="branch-card"><p>ARTICLE VII</p><h3>Executive</h3><span>President</span><p>Enforces laws, directs the executive branch, and leads national administration.</p></article>
+          <article class="branch-card"><p>ARTICLE VIII</p><h3>Judicial</h3><span>Supreme Court & courts</span><p>Interprets laws and resolves legal disputes through judicial power.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="quiz" class="section quiz-section">
+      <div class="container quiz-wrap">
+        <div class="section-heading">
+          <p class="eyebrow">KNOWLEDGE CHECK</p>
+          <h2>Test what you learned</h2>
+          <p>Answer these short questions, then check your score.</p>
+        </div>
+        <form id="constitution-quiz" class="quiz-form" novalidate>
+          <fieldset><legend>1. Which article contains the Bill of Rights?</legend>
+            <label><input type="radio" name="q1" value="a"> Article I</label>
+            <label><input type="radio" name="q1" value="b"> Article III</label>
+            <label><input type="radio" name="q1" value="c"> Article VII</label>
+          </fieldset>
+          <fieldset><legend>2. How many articles are in the 1987 Constitution?</legend>
+            <label><input type="radio" name="q2" value="a"> 12</label>
+            <label><input type="radio" name="q2" value="b"> 16</label>
+            <label><input type="radio" name="q2" value="c"> 18</label>
+          </fieldset>
+          <fieldset><legend>3. Where does sovereignty reside?</legend>
+            <label><input type="radio" name="q3" value="a"> In the people</label>
+            <label><input type="radio" name="q3" value="b"> In Congress</label>
+            <label><input type="radio" name="q3" value="c"> In the Supreme Court</label>
+          </fieldset>
+          <fieldset><legend>4. Which branch interprets laws?</legend>
+            <label><input type="radio" name="q4" value="a"> Legislative</label>
+            <label><input type="radio" name="q4" value="b"> Executive</label>
+            <label><input type="radio" name="q4" value="c"> Judicial</label>
+          </fieldset>
+          <div class="quiz-actions"><button class="button button-primary" type="submit">Check my score</button><button class="button button-secondary" type="reset">Reset quiz</button></div>
+          <p id="quiz-feedback" class="quiz-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section sources-section">
+      <div class="container sources-wrap">
+        <div><p class="eyebrow">KEEP LEARNING</p><h2>Read the official text</h2><p>This guide is a starting point. Consult primary sources for exact wording and complete provisions.</p></div>
+        <div class="source-links">
+          <a href="https://www.officialgazette.gov.ph/constitutions/1987-constitution/" target="_blank" rel="noopener noreferrer">1987 Constitution — Official Gazette <span aria-hidden="true">↗</span></a>
+          <a href="https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/45/114" target="_blank" rel="noopener noreferrer">Supreme Court E-Library reference <span aria-hidden="true">↗</span></a>
+          <p>Last reviewed: September 2026</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap"><p>Philippine Constitution Civic Guide · Educational portfolio project</p><a href="#top">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
